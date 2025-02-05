@@ -1,0 +1,20 @@
+Testing Report of E-Commerce Furniture Website,,,,,,,
+TestCaseID,TestCase Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Remarks
+TC001,Validate to Home page,Click on Avion LOGO > Home page,All content displays correctly,Content displays corrcetly,Passed,Medium,No issue found
+TC002,Validate to About Page,Click on About us Hyperlink On footer > About,All content displays correctly,Content displays corrcetly,Passed,Medium,No issue found
+TC003,Validate to Product Listing Page,Click on View Collection > Product page,All products fetch from Sanity,Products displays correctly,Passed,High,No issue found
+TC004,Validate to Product Details page,Click On Product Card > Product Details page,Selected Product Details fetch from Sanity displays Correctly,Product Details displays correctly,Passed,High,No issue found
+TC005,Validate to Cart page,Product Details page > Add to Cart button,Product is added to cart,Product is added to cart successfully,Passed,High,No issue found
+TC006,Validate Checkout Functionality,Cart Page > Checkout Button,Checkout page should load properly,Properly load checkout page,Passed,High,No issue found
+TC007,Validate Search Functionality,Enter a product name in the search bar > Click Search,Relevant products should be displayed,-,Failed,High,Working on it
+TC008,Validate Category Filter,Select a category filter on the Product Listing Page,Products related to the selected category should be displayed,Related Products Displayed successfully,Passed,High,No issue found
+TC009,Validate Price Filter,Apply a price filter on the Product Listing Page,Products within the selected price range should be displayed,-,Failed,Medium,Working on it
+TC010,Validate User Login,Enter valid credentials > Click Login,User should be logged in successfully,-,Skipped,High,Working on it
+TC011,Validate User Logout,Click on Logout button,User should be logged out successfully,-,Skipped,Medium,Working on it
+TC012,Validate Wishlist Functionality,"Click on ""Add to Wishlist"" for a product",Product should be added to the Wishlist,-,Failed,Medium,Working on it
+TC013,Validate Remove from Wishlist,"Click on ""Remove from Wishlist"" for a product",Product should be removed from the Wishlist,-,Failed,Medium,Working on it
+TC014,Validate Order Placement,Complete checkout process with valid details,Order should be placed successfully with an order confirmation,-,Failed,High,Working on it
+TC015,Validate Payment Gateway,Select payment method > Complete payment,Payment should be processed successfully,-,Failed,High,Working on it
+TC016,Validate Order History,"Navigate to ""My Orders"" section",Previously placed orders should be listed,-,Skipped,Medium,Working on it
+TC017,Validate Contact Us Form,Enter valid details and submit the form,Confirmation message should be displayed,-,Passed,Low,No issue found
+TC018,Validate Newsletter Subscription,Enter email and subscribe,Subscription confirmation message should appear,-,Skipped,Low,Working on it
